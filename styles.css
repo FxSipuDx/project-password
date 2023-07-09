@@ -1,0 +1,48 @@
+body{
+    font-family:'Tinos';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    height: 750px;
+    width: 500px;
+    background-color: #F5F5DC;
+    margin: 20px;
+}    
+
+.item0{
+    font-size: 80px;
+    padding: 10px;
+    margin:  30px;
+    display: block;
+}
+.item1{
+    font-size: 40px;
+    display: block;
+    padding: 10px;
+    margin: 30px;
+    
+}
+.item2{
+    font-size: 40px;
+    padding: 10px;
+    margin: 30px;
+    
+}
+.item3{
+    font-size: 40px;
+    padding: 10px;
+    margin: 30px;
+    
+}
+.item4{
+    font-size: 40px;
+    padding: 10px;
+    margin: 30px;
+}
+.item5{
+    font-size: 40px;
+    padding: 10px;
+    margin: 30px;
+}
