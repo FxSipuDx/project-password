@@ -11,27 +11,30 @@
 </head>
 <body>
     <form>
-        <div class="item0">
-            <span id="topvalue">0</span>
+        <div class="firstbox">
+            <div class="item0">
+                <span id="topvalue">0</span>
+            </div>
+            <div class="item1">
+                <label for="passwordsize">Size</label>
+                <input type="range" name="passwordsize" id="passwordsize" min="0" max="100" value="0" step="1">
+            </div>
+            <div class="item2">
+                <label for="uppercase">Uppercase Character</label>
+                <input type="checkbox" name="uppercase" id="uppercase">
+            </div>
+            <div class="item3">
+                <label for="specialcharacter">Special Character</label>
+                <input type="checkbox" name="specialcharacter" id="specialcharacter">
+            </div>
+            <div class="item4">
+                <input type="submit" value="generate" id="generatebutton">
+            </div>
+            <div class="item5">
+                 <span id="useroutput"></span>
+            </div>
         </div>
-        <div class="item1">
-            <label for="passwordsize">Size</label>
-            <input type="range" name="passwordsize" id="passwordsize" min="0" max="100" value="0" step="1">
-        </div>
-        <div class="item2">
-            <label for="uppercase">Uppercase Character</label>
-            <input type="checkbox" name="uppercase" id="uppercase">
-        </div>
-        <div class="item3">
-            <label for="specialcharacter">Special Character</label>
-            <input type="checkbox" name="specialcharacter" id="specialcharacter">
-        </div>
-        <div class="item4">
-            <input type="submit" value="generate" id="generatebutton">
-        </div>
-        <div class="item5">
-             <span id="useroutput"></span>
-        </div>
+        
     </form>
 </body>
 <script src="script.js"></script>

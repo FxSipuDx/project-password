@@ -1,48 +1,61 @@
 body{
     font-family:'Tinos';
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    background-color: moccasin;
+    height: 100vh;
 }
-form{
+
+.firstbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     height: 750px;
     width: 500px;
-    background-color: #F5F5DC;
-    margin: 20px;
+    background-color: azure;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }    
 
 .item0{
     font-size: 80px;
-    padding: 10px;
-    margin:  30px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    
+    
 }
 .item1{
     font-size: 40px;
-    display: block;
-    padding: 10px;
-    margin: 30px;
+    margin: 20px;
+    
+    
     
 }
 .item2{
     font-size: 40px;
-    padding: 10px;
-    margin: 30px;
+    margin: 20px;
+    
     
 }
 .item3{
     font-size: 40px;
-    padding: 10px;
-    margin: 30px;
+    margin: 20px;
+    
     
 }
 .item4{
     font-size: 40px;
-    padding: 10px;
-    margin: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
 .item5{
     font-size: 40px;
-    padding: 10px;
-    margin: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+}
+form{
+    border: 5px black;
 }
