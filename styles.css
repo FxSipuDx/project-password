@@ -5,18 +5,23 @@ body{
     justify-content: center;
     background-color: #F5F5F5;
     height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 .firstbox{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 750px;
-    width: 500px;
+    max-height: 80vh; /* Adjust as needed */
+    overflow-y: auto;
+    width: 90%;
+    max-width: 500px;
     background-color: #ADD8E6;
     padding: 20px;
     border: 10px solid black;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    margin: 20px;
 }    
 
 .item0{
@@ -59,15 +64,24 @@ body{
     
 }
 @media (max-width: 768px) {
+    .firstbox {
+        max-width: 100%; /* Allow box to take full width on small screens */
+        border: 5px solid black; /* Reduce border size for small screens */
+        max-height: none; /* Reset maximum height for small screens */
+        overflow-y: visible; /* Remove vertical scroll for small screens */
+    }
+
+    /* Adjust font sizes and margins for even smaller screens */
     .item0 {
         font-size: 60px;
     }
+
     .item1,
     .item2,
     .item3,
     .item4,
     .item5 {
-        font-size: 30px;
-        margin: 10px;
+        font-size: 20px;
+        margin: 5px 0;
     }
 }
