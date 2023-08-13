@@ -58,3 +58,16 @@ body{
     margin: 20px;
     
 }
+@media (max-width: 768px) {
+    .item0 {
+        font-size: 60px;
+    }
+    .item1,
+    .item2,
+    .item3,
+    .item4,
+    .item5 {
+        font-size: 30px;
+        margin: 10px;
+    }
+}
